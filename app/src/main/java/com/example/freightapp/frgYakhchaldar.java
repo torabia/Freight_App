@@ -38,7 +38,7 @@ public class frgYakhchaldar extends Fragment {
     private void setUpRecyclerView() {
         baseURL_multiple = new BaseURL_Multiple();
         interface_yakhchaldar_cr = baseURL_multiple.getInterface_yakhchaldar_cr();
-        Call<List<dataModelYakhchaldar>> listCall = interface_yakhchaldar_cr.GetInterfaceApi();
+
 
 
     }

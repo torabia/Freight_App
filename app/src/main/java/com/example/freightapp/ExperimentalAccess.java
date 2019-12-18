@@ -1,17 +1,11 @@
 package com.example.freightapp;
 
-import android.content.Context;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.GridView;
 
 import com.example.freightapp.Adapters.ViewPager.ViewPagerAdapter;
-import com.example.freightapp.Adapters.gridViewAdapter;
-import com.example.freightapp.DataModels.DataModel_GridView;
-
-import java.util.ArrayList;
 
 public class ExperimentalAccess extends AppCompatActivity {
     private TabLayout tabLayout ;
@@ -21,7 +15,7 @@ public class ExperimentalAccess extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.experimental_access);
         tabLayout = findViewById(R.id.tab_Frieght);
         viewPager = findViewById(R.id.viewPage_Freight);
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
