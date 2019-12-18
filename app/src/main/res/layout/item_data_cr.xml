@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:id="@+id/Rel_ItemLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:id="@+id/theFirstDiv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_mabdaa_harrixAtom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/iransansmobile"
+                    android:padding="@dimen/_5sdp"
+                    android:text="تهران"
+                    android:textColor="#0f9ea0"
+                    android:textDirection="ltr"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:id="@+id/tv_be"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tv_mabdaa_harrixAtom"
+                    android:layout_toLeftOf="@+id/tv_mabdaa_harrixAtom"
+                    android:fontFamily="@font/iransansmobile"
+                    android:padding="@dimen/_5sdp"
+                    android:text="به"
+                    android:textColor="#0f9ea0"
+                    android:textDirection="ltr"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:id="@+id/tv_maghsad_harrixAtom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tv_be"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_toStartOf="@+id/tv_be"
+                    android:layout_toLeftOf="@+id/tv_be"
+                    android:fontFamily="@font/iransansmobile"
+                    android:padding="@dimen/_5sdp"
+                    android:text="سیرجان"
+                    android:textColor="#0f9ea0"
+                    android:textDirection="ltr"
+                    android:textSize="@dimen/_14sdp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/theFirstDiv">
+
+                <TextView
+                    android:id="@+id/title_tedadBrgir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/iransansmobile"
+                    android:text="تعداد بارگیر روزانه تقریبی: "
+                    android:textColor="#109AA0"
+                    android:textSize="@dimen/_10sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_daily_harrixAtom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_tedadBrgir"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="3, 360"
+                    android:textColor="#109AA0"
+                    android:textSize="@dimen/_12sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_kala_harrixAtom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="سنگ آهن"
+                    android:textColor="#109AA0"
+                    android:textSize="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_bargir_harrixAtom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tv_kala_harrixAtom"
+                    android:layout_alignParentBottom="true"
+                    android:text="کمپرسی"
+                    android:textColor="#109AA0"
+                    android:textSize="@dimen/_15sdp"
+                    />
+
+                <View
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="#109AA0"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tv_daily_harrixAtom"
+                    android:layout_marginTop="@dimen/_4sdp"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+</RelativeLayout>
